@@ -1,2 +1,4 @@
-let a = 1 + 1;
-alert(`a + "Результат вычисления"`);
+let x = 23423;
+x = undefined;
+// x = String(x);
+alert(typeof x);
