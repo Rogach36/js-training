@@ -1,10 +1,39 @@
 
 
+//9
+
+// if (age < 14 && age > 90);
+//
+// let age;
+// let x = ( x >= 14 ) && x <=90;
+// if (age != x );
+
+let age = prompt("Введите число не входящее в диапазон от 14 до 90");
+if (age < 14 || age > 90) {
+  alert("Ура");
+} else {
+  alert("Увы");
+}
+
+
+//8
+
+// let age = prompt("Введите число в диапазоне от 14 до 90, включая пограничные значения");
+// if (age >= 14 && age <=90) {
+//   alert("Вы молодец");
+// } else {
+//   alert("Попробуйте снова");
+// }
+
+
+//7
+// alert( alert(1) || 2 || alert(3) );
+
 //6
 
-let x = 1;
-
-(x > 0) && alert( 'Greater than zero!' );
+// let x = 1;
+//
+// (x > 0) && alert( 'Greater than zero!' );
 
 // let language = prompt("What's the официальное название JavaScript?", "");
 //
