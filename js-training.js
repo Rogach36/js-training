@@ -1,5 +1,10 @@
 
 
+//6
+
+let x = 1;
+
+(x > 0) && alert( 'Greater than zero!' );
 
 // let language = prompt("What's the официальное название JavaScript?", "");
 //
