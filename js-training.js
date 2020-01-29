@@ -1,7 +1,49 @@
 
 
+// let year = prompt('В каком году появилась спецификация ECMAScript-2015?', '');
+//
+// if (year < 2015) {
+//   alert( 'Это слишком рано...' );
+// } else if (year > 2015) {
+//   alert( 'Это поздновато' );
+// } else {
+//   alert( 'Верно!' );
+// }
+
+//11
+//сделать отдельный код для проверки одного условия и отдельный для другого и
+ let login = prompt("Ваш логин");
+ if (login == null || login == "") {
+   alert("Отменено");
+ } else if (login = "Админ") {
+   alert(prompt("Пароль"));
+ }  else {
+   alert("Я вас не знаю");
+ }
+
+// let password = prompt("Пароль?");
+// if (password == null) {
+//   alert("Отменено");
+// } else if (password == "Я главный") {
+//   alert("Здравствуйте");
+// } else {
+//   alert("Неверный пароль");
+// }
+
+
+// let login = prompt("Ваш логин");
+// if (login == null || login == "") {
+//   alert("Отменено");
+// } else if (login == "Админ"){
+//   alert(prompt("Пароль?"));
+// } else if (login == null) {
+//   alert("Отменено");
+// }
+
+
+
 //10
-if (0 || "null") alert( 'first' );
+// if (0 || "null") alert( 'first' );
 
 //9
 
