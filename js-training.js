@@ -1,14 +1,43 @@
+//
+// let login = prompt("Ваш логин");
+// if (login = "Админ") {
+// let password = prompt("Ваш пароль");
+// } if (password  = "Я") {
+//    alert("Здравствуйте");
+//  } if (password = null) {
+//    alert("Отменено");
+//  } else {
+//    alert("Пароль не верен");
+//  }
 
-let login = prompt("Ваш логин", '');
-if (login = "Админ") {
- let password = (prompt("Ваш пароль", ""));
-} if (password  = "Я здесь главный") {
+
+
+let login = prompt("Ваш логин");
+if (login == "Админ") {
+   let password = prompt("Пароль?");
+ /*}*/ if (password == "Я") {
   alert("Здравствуйте");
-} else if (password == null) {
-  alert("Отменено");
+ } else if (password == null || password == "") {
+   alert("Отменено");
+ } else {
+  alert("Неверный пароль");
+}} else if (login == null || login == "") {
+alert("Отменено");
 } else {
-  alert("Пароль не верен");
+alert("Я вас не знаю");
 }
+
+// 
+// let login = prompt( 'Who\'s there?', '' );
+// if ( login == 'Admin' ) {
+//   let password = prompt('Password', '');
+//   if ( password == 'I am the boss' ) { alert('Welcome!');}
+//   else if ( password == '' || password == null ) {alert('Cancelled');}
+//   else { alert('Wrong password');}
+// }
+// else if ( login == '' || login == null ) { alert('Cancelled'); }
+// else { alert('I dont know you');}
+
 
 
 
