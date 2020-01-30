@@ -1,25 +1,35 @@
 
+let login = prompt("Ваш логин", '');
+if (login = "Админ") {
+ let password = (prompt("Ваш пароль", ""));
+} if (password  = "Я здесь главный") {
+  alert("Здравствуйте");
+} else if (password == null) {
+  alert("Отменено");
+} else {
+  alert("Пароль не верен");
+}
 
-// let year = prompt('В каком году появилась спецификация ECMAScript-2015?', '');
-//
-// if (year < 2015) {
-//   alert( 'Это слишком рано...' );
-// } else if (year > 2015) {
-//   alert( 'Это поздновато' );
+
+
+//проверка админа
+// (login == null || login == "") {
+//  alert("Отменено");
 // } else {
-//   alert( 'Верно!' );
+//  alert("Я вас не знаю");
 // }
 
-//11
+
+//11 работающий вариант
 //сделать отдельный код для проверки одного условия и отдельный для другого и
- let login = prompt("Ваш логин");
- if (login == null || login == "") {
-   alert("Отменено");
- } else if (login = "Админ") {
-   alert(prompt("Пароль"));
- }  else {
-   alert("Я вас не знаю");
- }
+  // let login = prompt("Ваш логин", '');
+  // if (login == null || login == "") {
+  //  alert("Отменено");
+  // } if (login == "Админ") {
+  //  let password = (prompt("Ваш пароль", ""));
+  // }  else {
+  //  alert("Я вас не знаю");
+  // }
 
 // let password = prompt("Пароль?");
 // if (password == null) {
