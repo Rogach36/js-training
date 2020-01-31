@@ -1,85 +1,34 @@
-//
-// let login = prompt("Ваш логин");
-// if (login = "Админ") {
-// let password = prompt("Ваш пароль");
-// } if (password  = "Я") {
-//    alert("Здравствуйте");
-//  } if (password = null) {
-//    alert("Отменено");
-//  } else {
-//    alert("Пароль не верен");
-//  }
-
-
-
-let login = prompt("Ваш логин");
-if (login == "Админ") {
-   let password = prompt("Пароль?");
- /*}*/ if (password == "Я") {
-  alert("Здравствуйте");
- } else if (password == null || password == "") {
-   alert("Отменено");
- } else {
-  alert("Неверный пароль");
-}} else if (login == null || login == "") {
-alert("Отменено");
-} else {
-alert("Я вас не знаю");
+while (condition) {
+  // код
+  // также называемый "телом цикла"
 }
-
-// 
-// let login = prompt( 'Who\'s there?', '' );
-// if ( login == 'Admin' ) {
-//   let password = prompt('Password', '');
-//   if ( password == 'I am the boss' ) { alert('Welcome!');}
-//   else if ( password == '' || password == null ) {alert('Cancelled');}
-//   else { alert('Wrong password');}
-// }
-// else if ( login == '' || login == null ) { alert('Cancelled'); }
-// else { alert('I dont know you');}
+//Код из тела цикла
+//выполняется, пока условие condition истинно.
 
 
+do {
+  // тело цикла
+} while (condition);
 
-
-//проверка админа
-// (login == null || login == "") {
-//  alert("Отменено");
+//Цикл сначала выполнит тело, а затем проверит условие condition,
+//и пока его значение равно true, он будет выполняться снова и снова.
+/*-----------------------------------------------------------------*/
+//11 задание со if, вложенным в другой if
+// let login = prompt("Введите логин");
+// if (login == "Админ") {
+//   let pass = prompt("Введите пароль")
+//   if (pass == "Я") {
+//     alert("Здоров!");
+//   } else if (pass == null || pass == "") {
+//     alert("Отменено");
+//   } else {
+//     alert("Я вас не знаю");
+//   }
+// } else if (login == null || login == "") {
+//   alert("Отменено");
 // } else {
-//  alert("Я вас не знаю");
+//   alert("Я вас не знаю");
 // }
-
-
-//11 работающий вариант
-//сделать отдельный код для проверки одного условия и отдельный для другого и
-  // let login = prompt("Ваш логин", '');
-  // if (login == null || login == "") {
-  //  alert("Отменено");
-  // } if (login == "Админ") {
-  //  let password = (prompt("Ваш пароль", ""));
-  // }  else {
-  //  alert("Я вас не знаю");
-  // }
-
-// let password = prompt("Пароль?");
-// if (password == null) {
-//   alert("Отменено");
-// } else if (password == "Я главный") {
-//   alert("Здравствуйте");
-// } else {
-//   alert("Неверный пароль");
-// }
-
-
-// let login = prompt("Ваш логин");
-// if (login == null || login == "") {
-//   alert("Отменено");
-// } else if (login == "Админ"){
-//   alert(prompt("Пароль?"));
-// } else if (login == null) {
-//   alert("Отменено");
-// }
-
-
 
 //10
 // if (0 || "null") alert( 'first' );
